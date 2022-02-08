@@ -20,8 +20,12 @@ for c in rgb_colors:
         rgb_colors.remove(c)
 
 helena = turtle.Turtle()
+helena.penup()
 screen = turtle.Screen()
 screen.colormode(255)
+screen.setup(height=400,width=400)
+helena.goto(-100,-100)
+# screen.screensize(canvwidth=300,canvheight=300)
 
 helena.penup()
 # print(helena.heading())
